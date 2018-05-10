@@ -1,0 +1,30 @@
+
+
+h1 {
+	text-align: center;
+	margin: 25px auto;
+}
+#main-container {
+	width: 60%;
+	margin: 30px auto 0 auto;
+}
+
+#logo-row {
+	height: 75px;
+	width: 100%;
+	
+	text-align: center;
+}
+
+#links-to-app {
+	width: 100%;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.link-to-app {
+	width: 32%;
+	float: left;
+	text-align: center;
+	margin: 0 3px 0 3px;
+}

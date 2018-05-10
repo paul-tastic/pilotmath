@@ -1,0 +1,179 @@
+body {
+	/*background-image: url('background-images/img2.jpg');*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: fit-content;
+}
+
+a {
+	text-decoration: none;
+}
+
+#version {
+	background-color: rgba(180, 180, 180, 0.6);
+	position: absolute;
+	
+	padding: 0 3px;
+	left: 2px;
+	bottom: 2px;
+	color: #f8f8f8;
+	line-height: normal;
+	font-sie: .8rem;
+	font-weight: lighter;
+	text-shadow: 1px 1px black;
+}
+
+#version a {
+	color: #f8f8f8;
+	text-decoration: none;
+}
+
+#version a:hover {
+	color: darkgrey;
+}
+
+#photo-credit {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	right-margin: 30px;
+	padding: 2px 25px 2px 5px;
+	text-shadow: 1px 1px black;
+	color: #f8f8f8
+}
+
+#main {
+	width: 500px;
+	margin: 50px auto;
+	text-align: center;
+	text-shadow: 1px 1px 3px grey;
+	padding: 25px;
+	background-color: rgba(180, 180, 180, 0.4);
+	border: 1px solid black;
+	border-radius: 8px;
+	clear: left;
+	overflow: hidden;
+}
+
+#main-inside-container {
+	margin: 50px auto 20px auto;
+	width: 300px;
+}
+
+#inside-container {
+	margin: 50px auto 20px auto;
+}
+
+#inside-container h1 {
+	margin-bottom: 35px;
+
+}
+
+.main-page-button {
+	margin: 25px auto 25px auto;
+	height: 45px;
+	line-height: 30px;
+	font-size: larger;
+}
+
+
+.time-pickers {
+	width: 130px;
+}
+
+.simple-time-entry-div {
+	text-align: center;
+	margin: 5px;
+}
+
+.time-entry {
+	width: 75px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+#time-input-row {
+	margin: 0 auto;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.time-square {
+	width: 100px;
+	margin: 5px;
+	float: left;
+	padding: 5px;
+}
+
+.time-square p {
+	margin-bottom: 2px;
+}
+
+#flight-row {
+	clear: both;
+	width: 110px;
+	height: 70px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	border: 2px solid grey;
+	border-top: none;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+#flight-row p {
+	margin: 0;
+	vertical-align: text-bottom;
+}
+
+#block-row {
+	clear: both;
+	width: 335px;
+	height: 140px;
+	margin: 3px auto;
+	border: 2px solid grey;
+	border-top: none;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+#block-row p {
+	margin: 0;
+	vertical-align: text-bottom;
+}
+
+.time-btn {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+#answers {
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0px 20px 0px;
+}
+
+#answers-text {
+	width: 65%;
+	text-align: right;
+	float: left;
+}
+
+#answers-answers {
+	margin-left: 5px;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+#fuel-type {
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
